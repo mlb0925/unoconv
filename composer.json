@@ -1,0 +1,21 @@
+{
+    "name": "mlb0925/unoconv",
+    "description": "An Object Oriented library which allow easy to use file conversion with Unoconv.",
+    "license": "Mit",
+    "autoload": {
+        "psr-4": {
+            "mlb0925\\Unoconv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mlb0925",
+            "email": "shophome@foxmail.com"
+        }
+    ],
+    "require": {
+        "evenement/evenement": "^3.0",
+        "phpunit/phpunit": "^9.5",
+        "alchemy/binary-driver": "^5.2"
+    }
+}
